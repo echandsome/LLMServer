@@ -9,7 +9,7 @@ const MAX_REQUEST_SIZE = '10mb';
 
 // Local LLM Server configuration
 const LLM_SERVER_URL = process.env.LLM_SERVER_URL || 'http://127.0.0.1:1234';
-const LLM_TIMEOUT = 60000; // 60 seconds
+const LLM_TIMEOUT = 600000; // 600 seconds
 
 // Supported endpoints
 const SUPPORTED_ENDPOINTS = [
