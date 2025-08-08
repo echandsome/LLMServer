@@ -3,7 +3,7 @@ const router = express.Router();
 const llmRoutes = require('./llm');
 const {
   validateApiKey
-} = require('../middleware/auth');
+} = require('../middlewares/auth');
 
 // Mount LLM routes with API key validation
 router.use('/', validateApiKey, llmRoutes);
